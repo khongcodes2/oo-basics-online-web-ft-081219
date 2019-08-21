@@ -9,7 +9,7 @@ class Shoe
   
   def cobble
     puts "Your shoe is as good as new!"
-    shoe.condition.to eq ("new")
+    self.condition =  ("new")
   end
   
   
